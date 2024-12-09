@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="April Music Player - Your Interactive Music Companion"
+        />
+        <meta
+            name="keywords"
+            content="April Music Player, Music, Lyrics, Learning"
+        />
+        <meta name="author" content="Aung Myint Myat" />
+        <title>April Music Player</title>
+        <link
+            rel="icon"
+            href="./resources/icons/favicon.ico"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./resources/styles/style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <script src="resources/scripts/script.js" defer></script>
+        <!-- Include the JavaScript file -->
+        <script src="resources/scripts/load-screenshots.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>
+                April Music Player<sub style="font-size: 0.4em"
+                    >(for language learners)</sub
+                >
+            </h1>
+        </header>
+
+        <!-- Navigation Section -->
+        <nav>
+            <div role="navigation">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#screenshots">Screenshots</a>
+                <a href="#download">Download</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                Toggle Theme
+            </button>
+        </nav>
+
+        <!-- Home Section -->
+        <section id="home" class="container" aria-labelledby="home-heading">
+            <h2 id="home-heading">Welcome to April Music Player</h2>
+            <p>
+                <b
+                    >April Music Player is more than a music app — it’s a
+                    learning companion! Dive into features like interactive
+                    lyrics, personalized vocabulary tracking, and music
+                    downloads that make language learning fun and seamless.</b
+                >
+            </p>
+        </section>
+
+        <!-- Features Section -->
+        <section
+            id="features"
+            class="container"
+            aria-labelledby="features-heading"
+        >
+            <h2 id="features-heading">Why Choose April Music Player?</h2>
+            <ul>
+                <li>🎵 Sync and interact with LRC lyrics</li>
+                <li>
+                    📝 Take notes on lyrics and build your personal dictionary
+                </li>
+                <li>🔄 Download music and lyrics with integrated tools</li>
+                <li>🌐 Multilingual support for language learners</li>
+                <li>
+                    💻 Built using PyQt6 with a modern, user-friendly design
+                </li>
+            </ul>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section
+            id="screenshots"
+            class="container"
+            aria-labelledby="screenshots-heading"
+        >
+            <h2 id="screenshots-heading">Screenshots</h2>
+            <div class="screenshot-gallery" id="screenshotGallery"></div>
+        </section>
+
+        <!-- Download Section -->
+        <head> </head>
+        <section
+            id="download"
+            class="container"
+            aria-labelledby="download-heading"
+        >
+            <h2 id="download-heading">Download</h2>
+            <p>
+                Ready to get started? Download April Music Player for your
+                operating system!
+            </p>
+
+            <div class="download-buttons">
+                <a
+                    href="https://github.com/amm926616/april-music-player/releases/download/windows-installer/installer.exe"
+                    target="_blank"
+                    class="download-link windows"
+                >
+                    Download for Windows
+                </a>
+                <a
+                    href="https://github.com/amm926616/april-music-player/releases/download/linux-installer/installer.sh"
+                    target="_blank"
+                    class="download-link linux"
+                >
+                    Download for Linux
+                </a>
+                <a
+                    href="https://github.com/amm926616/april-music-player/releases/download/macos-installer/installer.dmg"
+                    target="_blank"
+                    class="download-link macos"
+                >
+                    Download for macOS
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section
+            id="contact"
+            class="container"
+            aria-labelledby="contact-heading"
+        >
+            <h2 id="contact-heading">Contact</h2>
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <a
+                        href="https://t.me/Adamd178"
+                        target="_blank"
+                        class="contact-icon"
+                    >
+                        <img
+                            src="./resources/icons/telegram.png"
+                            alt="Telegram"
+                        />
+                    </a>
+                </div>
+                <div class="contact-method">
+                    <a
+                        href="https://www.facebook.com/yourusername"
+                        target="_blank"
+                        class="contact-icon"
+                    >
+                        <img
+                            src="./resources/icons/facebook.png"
+                            alt="Facebook"
+                        />
+                    </a>
+                </div>
+                <div class="contact-method">
+                    <a href="mailto:your-email@gmail.com" class="contact-icon">
+                        <img src="./resources/icons/gmail.png" alt="Gmail" />
+                    </a>
+                </div>
+            </div>
+            <p>
+                Have questions or feedback? Reach out through these platforms:
+            </p>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Aung Myint Myat</p>
+        </footer>
+    </body>
+</html>
