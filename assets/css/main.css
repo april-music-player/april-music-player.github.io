@@ -305,12 +305,12 @@ footer.major {
 }
 
 .card {
-	background: rgba(40, 40, 55, 0.8);
+	background: #4ca1f03f;
 	border-radius: 12px;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.055);
 	padding: 1em;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(5px);
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	max-width: 700px;
 	margin: 0 auto;
@@ -318,11 +318,11 @@ footer.major {
 
 .card:hover {
 	transform: translateY(-5px);
-	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 8px 16px rgba(80, 79, 79, 0.2);
 }
 
 .icon.major {
-	background: linear-gradient(135deg, #80ace9, #8a2be2);
+	background: linear-gradient(135deg, #f870b0, #7c1300);
 	border-radius: 50%;
 	display: inline-block;
 	height: 3em;
@@ -618,7 +618,9 @@ ul.icons li .icon:before {
 #header nav ul li span.button {
 	height: 2em;
 	line-height: 2em;
-	padding: 0 1.25em;
+	padding: 0 1.50em;
+	font-weight: 600;
+	color: #fff;
 }
 
 #header nav ul li a:not(.button):before,
@@ -669,6 +671,8 @@ ul.icons li .icon:before {
 	margin: 0 auto;
 	letter-spacing: .15em;
 	position: relative;
+	font-size: 2.5em;
+	font-weight: bolder;
 	color: rgb(236, 25, 25);
 	animation: typewriter 5s steps(25) 5s infinite;
 }
@@ -690,6 +694,10 @@ ul.icons li .icon:before {
 #banner p {
 	letter-spacing: 0.225em;
 	text-transform: uppercase;
+	text-shadow: #1c1d26 0.05em 0.05em 0.05em;
+	color: #ffffff;
+	font-size: 1.25em;
+	font-weight: bolder;
 }
 
 #banner p a {
